@@ -1,0 +1,14 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "solana-state-extensions"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+pinocchio = "0.8.4"
+pinocchio-log = "0.4.0"
+pinocchio-system = "0.2.3"
